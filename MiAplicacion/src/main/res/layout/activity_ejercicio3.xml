@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagen de fondo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ima3" />
+
+    <!-- Contenido encima -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:id="@+id/chkFutbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fútbol" />
+
+        <CheckBox
+            android:id="@+id/chkBasquetbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basquetbol" />
+
+        <CheckBox
+            android:id="@+id/chkNatacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natación" />
+
+        <Button
+            android:id="@+id/btnMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar" />
+
+        <TextView
+            android:id="@+id/lblSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando selección..."
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Volver al Menú" />
+    </LinearLayout>
+</FrameLayout>

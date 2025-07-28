@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ima11"> <!-- Imagen de fondo -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#AA000000"> <!-- Fondo semitransparente para visibilidad -->
+
+        <!-- Encabezado -->
+        <TextView
+            android:id="@+id/tvEncabezado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menú de Ejercicios"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="24dp"
+            android:textColor="#FFFFFF"/> <!-- Texto blanco -->
+
+        <!-- Botones para los ejercicios -->
+        <Button
+            android:id="@+id/btnEjercicio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 1"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 2"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 3"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 4"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 5"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 6"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 7"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 8"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 9"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEjercicio10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 10"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</ScrollView>

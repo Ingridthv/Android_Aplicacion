@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagen de fondo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ima9" />
+
+    <!-- Contenido scrollable encima -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelPrecioBase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio Base"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtPrecioBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="Ingresa precio base"
+                android:textColor="#000000"
+                android:textColorHint="#555555" />
+
+            <!-- Instalación -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="24dp"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:id="@+id/tbtnInstalacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Instalacion"
+                    android:textOn="Instalacion"
+                    android:checked="true"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/lblPrecioInstalacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="40"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <!-- Formación -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:id="@+id/tbtnFormacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Formacion"
+                    android:textOn="Formacion"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/lblPrecioFormacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="200"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <!-- Alimentación BD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:id="@+id/tbtnAlimentacionBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Alimentacion BD"
+                    android:textOn="Alimentacion BD"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/lblPrecioAlimentacionBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="200"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp" />
+
+            <TextView
+                android:id="@+id/lblTotal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@android:drawable/editbox_background"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver al Menú"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

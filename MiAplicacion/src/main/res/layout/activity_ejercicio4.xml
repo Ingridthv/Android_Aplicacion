@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagen de fondo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ima4" />
+
+    <!-- Contenido original -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <RadioGroup
+            android:id="@+id/groupPagos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbtnEfectivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Efectivo"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rbtnTarjeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tarjeta" />
+
+            <RadioButton
+                android:id="@+id/rbtnTransferencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transferencia" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/lblSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando selección..."
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver al Menú"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+</FrameLayout>

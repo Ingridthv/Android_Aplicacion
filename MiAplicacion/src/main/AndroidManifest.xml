@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ingrid.aplicacion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aplicacion">
+
+        <!-- Login es la actividad de inicio -->
+        <activity android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity (menú de ejercicios) -->
+        <activity android:name=".MainActivity" android:exported="true" />
+
+        <!-- Todas las demás actividades -->
+        <activity android:name=".ActivityEjercicio1" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio2" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio3" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio4" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio5" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio6" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio7" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio8" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio9" android:exported="true"/>
+        <activity android:name=".ActivityEjercicio10" android:exported="true"/>
+    </application>
+
+</manifest>
