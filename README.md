@@ -1,4 +1,4 @@
-# 📱 Android Aplicacion
+# 📱 Android Aplicación
 **Integrante:**  
 - **Ingrid Arcadio Aparicio** – Desarrolladora principal y diseñadora de interfaz
 
@@ -6,7 +6,7 @@
 
 ## 📌 ¿Qué hace la aplicación?
 
-La aplicación **Android Aplicacion** es una herramienta educativa diseñada para dispositivos móviles Android. Consiste en un portafolio de 10 ejercicios prácticos, cada uno enfocado en el dominio de un componente o interacción específica en Android.  
+La aplicación **Android Aplicación** es una herramienta educativa diseñada para dispositivos móviles Android. Consiste en un portafolio de 10 ejercicios prácticos, cada uno enfocado en el dominio de un componente o interacción específica en Android.  
 Desde acciones básicas como cambiar texto o colores, hasta el manejo de listas, formularios, controles deslizantes y botones dinámicos, esta app demuestra habilidades fundamentales en la programación de interfaces gráficas usando Java y XML.
 
 Todo el contenido se encuentra accesible desde un menú principal, lo que facilita la navegación entre actividades y permite ejecutar cada ejercicio directamente desde el teléfono móvil.
