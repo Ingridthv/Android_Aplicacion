@@ -31,6 +31,22 @@ Estas dependencias pueden declararse dentro del archivo `build.gradle`.
 
 ---
 
+## 🧾 Instrucciones Generales
+
+### Pantalla de inicio (LoginActivity):
+- Solicita dos campos: **correo electrónico** y **contraseña**.
+- El acceso solo será permitido si:
+  - El correo ingresado es exactamente: `tap2025@example.com`
+  - La contraseña es exactamente: `tap*2025`
+- Si los datos no coinciden, se mostrará un **mensaje de error** y **no se permitirá el acceso** a la aplicación.
+
+### Pantalla principal (MainActivity):
+- Una vez autenticado, se despliega una interfaz con **10 botones** (o componentes visuales equivalentes como `CardView`, `ImageButton`, etc.).
+- Cada botón está etiquetado de forma clara como: **“Ejercicio 1”**, **“Ejercicio 2”**, ..., hasta **“Ejercicio 10”**.
+- Al presionar cualquiera de los botones, el usuario será dirigido a la actividad correspondiente con la funcionalidad desarrollada.
+
+---
+
 ## 📂 Ejercicios incluidos
 
 > Esta sección detalla las funcionalidades clave de cada uno de los 10 ejercicios integrados en la aplicación. Cada ejercicio fue diseñado para demostrar el dominio de diferentes componentes gráficos y técnicas de interacción en Android:
@@ -105,3 +121,4 @@ Estas dependencias pueden declararse dentro del archivo `build.gradle`.
 ---
 
 _“Construyendo paso a paso con cada línea de código.”_ 🚀
+
