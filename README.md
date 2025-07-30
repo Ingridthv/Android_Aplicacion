@@ -66,9 +66,10 @@ Estas dependencias pueden declararse dentro del archivo `build.gradle`.
 
 1. **Ejercicio 1 – Cambio de texto en una etiqueta**  
    Permite modificar dinámicamente el texto de una `TextView` al interactuar con un botón. Introduce al usuario en la manipulación básica de elementos de interfaz.
+   
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima1.jpeg)
 
-2. **Ejercicio 2 – Cambio de color de fondo con un botón**  
+3. **Ejercicio 2 – Cambio de color de fondo con un botón**  
    Demuestra cómo cambiar el color de fondo de un layout de forma dinámica mediante eventos de clic. Enseña el control visual básico de la UI.
    
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima2.jpeg)
