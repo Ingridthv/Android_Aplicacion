@@ -69,43 +69,51 @@ Estas dependencias pueden declararse dentro del archivo `build.gradle`.
    
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima1.jpeg)
 
-3. **Ejercicio 2 – Cambio de color de fondo con un botón**  
+2. **Ejercicio 2 – Cambio de color de fondo con un botón**  
    Demuestra cómo cambiar el color de fondo de un layout de forma dinámica mediante eventos de clic. Enseña el control visual básico de la UI.
    
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima2.jpeg)
 
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima2(1).jpeg)
 
-4. **Ejercicio 3 – Selección de deportes con CheckBoxes**  
+3. **Ejercicio 3 – Selección de deportes con CheckBoxes**  
    Presenta una lista de deportes mediante `CheckBox` y permite al usuario seleccionar múltiples opciones. Las selecciones se reflejan en una etiqueta, promoviendo la gestión de entradas múltiples.
+   
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima3.jpeg)
 
-5. **Ejercicio 4 – Método de pago con RadioButtons**  
+4. **Ejercicio 4 – Método de pago con RadioButtons**  
    Simula un formulario de pago donde el usuario elige un método entre varias opciones exclusivas usando `RadioButton`. La elección se muestra claramente como confirmación.
+   
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima4.jpeg)
 
-6. **Ejercicio 5 – Selección de ciudad desde una lista**  
+5. **Ejercicio 5 – Selección de ciudad desde una lista**  
    Utiliza un componente `ListView` para mostrar una lista de ciudades. Al seleccionar una opción, esta se presenta en una etiqueta, fortaleciendo el uso de listas interactivas.
+   
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima5.jpeg)
 
-7. **Ejercicio 6 – Transferencia de cursos entre dos listas**  
+6. **Ejercicio 6 – Transferencia de cursos entre dos listas**  
    Implementa dos listas junto con botones para permitir al usuario mover cursos entre ambas. Enseña el control y actualización dinámica del contenido de múltiples listas.
+
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima6.jpeg)
 
-8. **Ejercicio 7 – Selección de sistema operativo con ComboBox**  
+7. **Ejercicio 7 – Selección de sistema operativo con ComboBox**  
    Muestra una lista desplegable (`ComboBox`) para seleccionar un sistema operativo. Al elegir una opción, se actualiza una etiqueta con la información seleccionada.
+   
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima7.jpeg)
 
 9. **Ejercicio 8 – Control de volumen con Slider**  
    Emplea un `SeekBar` que permite al usuario ajustar un nivel de volumen. El valor actual se refleja en tiempo real, ejemplificando la retroalimentación dinámica de entrada.
+   
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima8.jpeg)
 
-10. **Ejercicio 9 – Uso de ToggleButtons**  
+11. **Ejercicio 9 – Uso de ToggleButtons**  
    Introduce los `ToggleButton`, que mantienen su estado activado o desactivado. Permite evaluar si están seleccionados y controlarlos mediante programación (`isSelected`, `setSelected`).
+
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima9.jpeg)
 
-11. **Ejercicio 10 – Manipulación numérica con Spinner**  
+13. **Ejercicio 10 – Manipulación numérica con Spinner**  
     Utiliza un `JSpinner` con modelo numérico (`SpinnerNumberModel`) para seleccionar valores dentro de un rango definido. Permite establecer valores mínimos, máximos e incrementos personalizados.
+    
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima10.jpeg)
 
 ---
