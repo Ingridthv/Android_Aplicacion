@@ -1,5 +1,6 @@
 # 📱 Android Aplicación
 **Equipo 1
+
 **Integrante:**  
 - **Ingrid Arcadio Aparicio** – Desarrolladora principal y diseñadora de interfaz
 
