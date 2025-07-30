@@ -1,5 +1,5 @@
 # 📱 Android Aplicación
-**Equipo 1
+EQUIPO 1
 
 **Integrante:**  
 - **Ingrid Arcadio Aparicio** – Desarrolladora principal y diseñadora de interfaz
@@ -76,7 +76,7 @@ Estas dependencias pueden declararse dentro del archivo `build.gradle`.
 
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima2(1).jpeg)
 
-3. **Ejercicio 3 – Selección de deportes con CheckBoxes**  
+3. **Ejercicio 3 – Selección de deportes con CheckBox**  
    Presenta una lista de deportes mediante `CheckBox` y permite al usuario seleccionar múltiples opciones. Las selecciones se reflejan en una etiqueta, promoviendo la gestión de entradas múltiples.
    
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima3.jpeg)
@@ -101,17 +101,17 @@ Estas dependencias pueden declararse dentro del archivo `build.gradle`.
    
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima7.jpeg)
 
-9. **Ejercicio 8 – Control de volumen con Slider**  
+8. **Ejercicio 8 – Control de volumen con Slider**  
    Emplea un `SeekBar` que permite al usuario ajustar un nivel de volumen. El valor actual se refleja en tiempo real, ejemplificando la retroalimentación dinámica de entrada.
    
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima8.jpeg)
 
-11. **Ejercicio 9 – Uso de ToggleButtons**  
+9. **Ejercicio 9 – Uso de ToggleButtons**  
    Introduce los `ToggleButton`, que mantienen su estado activado o desactivado. Permite evaluar si están seleccionados y controlarlos mediante programación (`isSelected`, `setSelected`).
 
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima9.jpeg)
 
-13. **Ejercicio 10 – Manipulación numérica con Spinner**  
+10. **Ejercicio 10 – Manipulación numérica con Spinner**  
     Utiliza un `JSpinner` con modelo numérico (`SpinnerNumberModel`) para seleccionar valores dentro de un rango definido. Permite establecer valores mínimos, máximos e incrementos personalizados.
     
 ![Login](https://github.com/Ingridthv/Android_Aplicacion/raw/main/imagenes/ima10.jpeg)
